@@ -17,7 +17,15 @@ To get the most out of the Sensor we will set the external reference, AREF, from
 
 analogReference(EXTERNAL);
 
-# AInputting ADC values
+# Inputting ADC values
+The main instruction line is shown below:
+
+Int value = analogRead(analogpin#);
+
+ADC values are based on 10 bits or 0 - 1023
+ADC values are based on the AREF voltage.
+ADC value = temp voltage/Aref voltage * 1023
+
 
 ![Picture3](https://user-images.githubusercontent.com/102126445/160237028-a6628ded-13c4-4e08-ac9a-b9949f14953a.jpg)
 
