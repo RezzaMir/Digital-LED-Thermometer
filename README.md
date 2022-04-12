@@ -1,4 +1,4 @@
-# Digital-LED-Thermometer
+# Digital LED Thermometer
 
 The purpose is to explore using an LED bargraph to simulate an old fashioned thermometer using a string of LEDs and a semiconductor temperature sensor.
 
