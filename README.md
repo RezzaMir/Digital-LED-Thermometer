@@ -10,6 +10,15 @@ To light-up a string of LEDs based on the temperature from room temperature to a
 
 ![Picture2](https://user-images.githubusercontent.com/102126445/160236994-c76e467a-4b15-42b7-b347-1a0ffadb54ab.png)
 
+*Temp Sensor:* The temperature sensor used is the MCP9700 device which operates from -40C to 125C degrees corresponding to 0.1V to 1.75V
+
+# ADC Input Reference
+To get the most out of the Sensor we will set the external reference, AREF, from 1-2V depending on how high we want to go.   Once we decide that and set it, we need to put this instruction into the code so it will use that external reference instead of the internal 5V reference.
+
+analogReference(EXTERNAL);
+
+# AInputting ADC values
+
 ![Picture3](https://user-images.githubusercontent.com/102126445/160237028-a6628ded-13c4-4e08-ac9a-b9949f14953a.jpg)
 
 ![jho](https://user-images.githubusercontent.com/102126445/160237139-c39fdfb1-964d-41d5-992e-b71b9746972f.jpg)
